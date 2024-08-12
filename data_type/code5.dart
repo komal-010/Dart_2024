@@ -1,5 +1,5 @@
 void main(){
-  String str1="Kanha";
+  String str1="kanha";
   String str2="Rahul";
   print(str1);
   print(str2);

@@ -1,6 +1,6 @@
 void main(){
-  final x =10;
+  const int x=10;
   print(x);
-  final y=50;
+  const int y=50;
   print(y);
 }

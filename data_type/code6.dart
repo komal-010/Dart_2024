@@ -1,6 +1,6 @@
 void main(){
-  bool flag1=true;
-  bool flag2=false;
+  bool flag=true;
+  bool flag1=false;
+  print(flag);
   print(flag1);
-  print(flag2);
 }
