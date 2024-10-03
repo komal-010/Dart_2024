@@ -42,7 +42,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse1.mm.bing.net/th?id=OIP.AkqQU6wiR_50f-Qd-jYA7wAAAA&pid=Api&P=0&h=180",
                         ),
                       ),
                       Container(
@@ -50,7 +50,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse4.mm.bing.net/th?id=OIP.ZneFCUzw81CdNcHjw9czdQAAAA&pid=Api&P=0&h=180",
                         ),
                       ),
                       Container(
@@ -58,7 +58,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse3.mm.bing.net/th?id=OIP.0qjIRr-yFV93Tf5Wkdr_LQHaEK&pid=Api&P=0&h=180",
                         ),
                       ),
                       Container(
@@ -66,7 +66,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse4.mm.bing.net/th?id=OIP.fS7drXelAzXScI8AZCpW0QHaKX&pid=Api&P=0&h=180",
                         ),
                       ),
                       Container(
@@ -74,7 +74,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse2.mm.bing.net/th?id=OIP.Tcrx2XtyPgNt5fTv9M_pGAHaKX&pid=Api&P=0&h=180",
                         ),
                       ),
                       Container(
@@ -82,7 +82,7 @@ class MainApp extends StatelessWidget {
                         height: 300,
                         width: 200,
                         child: Image.network(
-                          "https://rukminim2.flixcart.com/image/750/900/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=20&crop=false",
+                          "https://tse3.mm.bing.net/th?id=OIP.ur0G0ZF3d4fvS8_3lwcJPgHaLJ&pid=Api&P=0&h=180",
                         ),
                       ),
                     ],
