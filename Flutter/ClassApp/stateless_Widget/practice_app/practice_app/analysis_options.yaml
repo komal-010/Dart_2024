@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    use_key_in_widget_constructors: ignore
+    camel_case_types: ignore
+    sort_child_properties_last: ignore
+    avoid_print: ignore
