@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    sort_child_properties_last: ignore
+    library_private_types_in_public_api: ignore
+    sized_box_for_whitespace: ignore
