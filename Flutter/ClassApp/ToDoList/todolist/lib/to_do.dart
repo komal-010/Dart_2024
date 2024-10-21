@@ -3,7 +3,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:todolist/to_do_modelclass.dart';
 
-
 class ToDoApp extends StatefulWidget {
   const ToDoApp({super.key});
 
@@ -12,7 +11,7 @@ class ToDoApp extends StatefulWidget {
 }
 
 class _ToDoAppState extends State<ToDoApp> {
-  /// TEXT EDITING CONTROLLERS
+  
   TextEditingController dateController = TextEditingController();
   TextEditingController titleController = TextEditingController();
   TextEditingController descriptionController = TextEditingController();
@@ -33,7 +32,7 @@ class _ToDoAppState extends State<ToDoApp> {
           padding: EdgeInsets.only(
             left: 20,
             right: 20,
-            /// TO AVOID THE KEYBOARD OVERLAP THE SCREEN
+            
             bottom: MediaQuery.of(context).viewInsets.bottom,
           ),
           child: Column(
@@ -187,16 +186,24 @@ class _ToDoAppState extends State<ToDoApp> {
     const Color.fromRGBO(250, 232, 250, 1),
   ];
 
+  
+  var listOfImages = [
+    "assets/flutterlogo.jpg",
+    "assets/python.jpg",
+    "assets/javalogo.jpg",
+    "assets/cpp.jpg",
+   ];
+
   List<ToDoModelClass> todoList = [
     ToDoModelClass(
       title: "Take notes",
       description: "Take notes of every app you write ",
-      date: "10 July 2023",
+      date: "10 July 2024",
     ),
     ToDoModelClass(
       title: "Arrange Meeting ",
       description: "Meet the backend team ",
-      date: "10 July 2023",
+      date: "10 0ct 2024",
     ),
   ];
 
@@ -225,14 +232,14 @@ class _ToDoAppState extends State<ToDoApp> {
     clearController();
   }
 
-  /// TO CLEAR ALL THE TEXT EDITING CONTROLLERS
+
   void clearController() {
     titleController.clear();
     descriptionController.clear();
     dateController.clear();
   }
 
-  /// REMOVE NOTES
+ 
   void removeTasks(ToDoModelClass toDoModelObj) {
     setState(() {
       todoList.remove(toDoModelObj);
@@ -240,7 +247,7 @@ class _ToDoAppState extends State<ToDoApp> {
   }
 
   void editTask(ToDoModelClass toDoModelObj) {
-    // ASSIGN THE TEXT EDITING CONTROLLERS WITH THE TEXT VALUES AND THEN OPEN THE BOTTOM SHEET
+
     titleController.text = toDoModelObj.title;
     descriptionController.text = toDoModelObj.description;
     dateController.text = toDoModelObj.date;
@@ -301,7 +308,9 @@ class _ToDoAppState extends State<ToDoApp> {
                             color: Colors.white,
                             shape: BoxShape.circle,
                           ),
-                          child: Image.asset("assets/image.png"),
+                          child: Image.asset(
+                            listOfImages[index % listOfImages.length],
+                          ),
                         ),
                         const SizedBox(width: 10),
                         Expanded(
